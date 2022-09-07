@@ -1,0 +1,41 @@
+.user-info-block {
+  margin-bottom: 30px;
+  display: flex;
+  @media only screen and (max-width: 450px) {
+    flex-wrap: wrap;
+  }
+  .user-img-wrap {
+    max-width: 200px;
+    width: 100%;
+    @media only screen and (max-width: 450px) {
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+  }
+  .user-info-wrap {
+    width: 100%;
+    padding-left: 50px;
+    @media only screen and (max-width: 450px) {
+      padding-left: 0;
+    }
+    & > div {
+      margin-bottom: 12px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+
+.user-bio {
+  margin-bottom: 10px;
+}
+
+.repo-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  .repo-info {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+.user-item {
+  display: flex !important;
+  align-items: center;
+  .user-img {
+    margin-right: 30px;
+    max-width: 60px;
+  }
+  .user-repo {
+    margin-left: auto;
+  }
+}
